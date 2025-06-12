@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+<head>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&amp;display=swap" rel="stylesheet"/>
+<meta charset="utf-8"/>
+<title>Frase e Botões em Coluna</title>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<style>
+    body {
+      margin: 0;
+      padding: 2rem;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #000000, #1a0023);
+      min-height: 100vh;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    h2 {
+      font-family: 'Playfair Display', serif;
+      font-weight: 800;
+      font-size: 2.2rem;
+      color: white;
+      margin-bottom: 3rem;
+    }
+
+    .button-column {
+      margin-top: 4rem;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      width: 100%;
+      max-width: 400px;
+    }
+
+    button {
+      background: linear-gradient(90deg, #d6336c, #6f42c1);
+      border: none;
+      border-radius: 16px;
+      padding: 20px;
+      color: white;
+      font-weight: 600;
+      font-size: 1.2rem;
+      cursor: pointer;
+      box-shadow: 0 8px 24px rgba(215, 51, 108, 0.5);
+      transition: background 0.3s ease, transform 0.25s ease;
+      user-select: none;
+      width: 100%;
+      text-align: center;
+    }
+
+    button:hover,
+    button:focus {
+      background: linear-gradient(90deg, #f72585, #8b5cf6);
+      outline: none;
+      transform: translateY(-4px);
+      box-shadow: 0 14px 32px rgba(247, 37, 133, 0.7);
+    }
+  </style>
+</head>
+<body>
+<h2>Feito com todo o coração, mas por favor não chora</h2>
+
+<div class="button-column">
+  <button onclick="window.location.href='1 - 02.2021.html'">Dia 02/05/2021</button>
+  <button onclick="window.location.href='2- 12.2023.html'">Dezembro de 2022</button>
+  <button onclick="window.location.href='3- 12.05.html'">Dia 12/05/2023</button>
+  <button onclick="window.location.href='4 - 09.11.html'">Dia 09/11/2023</button>
+  <button onclick="window.location.href='Feliz dia dos namorados.html'">Dia dos Namorados</button>
+</div>
+
+<p style="white-space: pre-line; text-align: center; margin-top: 3rem; font-style: italic; font-size: 1.1rem; color: #fff;">Princesa, descansa, me ama
+Me experimenta de remédio pro teu medo
+De oito em oito segundos, te dou um beijo
+Eu vou curar seu medo</p></body>
+</html>
